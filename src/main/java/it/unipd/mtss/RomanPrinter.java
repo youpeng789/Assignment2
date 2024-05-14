@@ -5,6 +5,9 @@
 
 /** implementare la funzione printAsciiArt */
 /** Gestire un input non valido (diverso da un numero romano) */
+package it.unipd.mtss;
+
+
 public class RomanPrinter {
     
     /**Ad ogni posizione [n][] corrisponde una lettera in ASCIIART
