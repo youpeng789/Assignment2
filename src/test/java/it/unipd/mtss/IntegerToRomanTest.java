@@ -87,9 +87,9 @@ public class IntegerToRomanTest {
         // Arrange
         String roman;
         // Act
-        roman = IntegerToRoman.convert(9);
+        roman = IntegerToRoman.convert(7);
         // Assert
-        assertEquals("IIIX", roman);
+        assertEquals("VII", roman);
     }
 
     @Test
@@ -107,9 +107,9 @@ public class IntegerToRomanTest {
         // Arrange
         String roman;
         // Act
-        roman = IntegerToRoman.convert(69);
+        roman = IntegerToRoman.convert(67);
         // Assert
-        assertEquals("LXIIIX", roman);
+        assertEquals("LXVII", roman);
     }
 
     @Test
@@ -117,7 +117,7 @@ public class IntegerToRomanTest {
         // Arrange
         String roman;
         // Act
-        roman = IntegerToRoman.convert(420);
+        roman = IntegerToRoman.convert(423);
         // Assert
         assertEquals("CDXXIII", roman);
     }
